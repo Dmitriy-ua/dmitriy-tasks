@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			box-sizing:border-box;
+			color: white;
+			text-transform: uppercase;
+		}
+		body{
+			background-color: #2177cf;
+			font-style: sans-serif;
+
+		}
+		.container{
+			margin: 0 auto;
+			width:  400px;
+			/*border: 1px solid black;*/
+			
+		}
+		header{
+			background-color: #9e9e9e;
+			text-align: center;
+			padding: 10px 0px;
+			margin-bottom: 5px;
+		}
+		nav{
+			background-color: #e71564;
+			text-align: center;
+			padding: 5px 0px;
+			margin-bottom: 5px;
+		}
+		.sidebarWrapper{
+			padding: 0 3px 0 0;
+			width: 35%;
+			float: left;
+		}
+		.sidebar{
+			background-color: #374046;
+			text-align: center;
+			padding: 5px 20px;
+				
+				
+			min-height: 250px;
+			margin-right: 5px;	
+		}
+
+		aside{
+			background-color: #617d8a;
+			text-align: center;
+			padding: 5px 0px;
+			margin-bottom: 10px;
+
+		}
+		main{
+			background-color: #8cc352;
+			text-align: center;
+			padding: 5px 20px;
+			width: 65%;
+			margin-bottom: 5px;
+			float: left;
+			min-height: 250px;
+		}
+		article{
+			background-color: #fec02e;
+			text-align: center;
+			padding: 20px 0px;
+			margin-bottom: 10px;
+		}
+		.clearfix{
+			clear: both;
+		}
+		footer{
+			background-color: #9e9e9e;
+			text-align: center;
+			padding: 15px 0px;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header><h2>HEADER</h2></header>
+		<nav><strong>NAV</strong></nav>
+		<div class="sidebarWrapper">
+			<div id="sidebar" class="sidebar">
+				<h3>#SIDEBAR</h3>
+				<aside>aside</aside>
+				<aside>aside</aside>
+				<aside>aside</aside>
+			</div>
+		</div>
+		<main>
+			<h2>Main</h2>
+			<article>article</article>
+			<article>article</article>
+		</main>
+		<div class="clearfix"></div>
+		<footer><h2>footer</h2></footer>
+	</div>
+	
+</body>
+</html>
